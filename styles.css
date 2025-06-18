@@ -1,1 +1,58 @@
 /*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+.box {
+  background-color: green;
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+}
+.box1 {
+  grid-column: 1 / span 3;
+}
+.box2 {
+  grid-row: 2 / span 4;
+}
+.box3 {
+  grid-column: 2;
+  grid-row: 2;
+}
+.box4 {
+  grid-column: 3;
+  grid-row: 2;
+}
+.box5 {
+  grid-column: 2;
+  grid-row: 3;
+}
+.box6 {
+  grid-column: 3;
+  grid-row: 3;
+}
+.box7 {
+  grid-column: 2;
+  grid-row: 4;
+}
+.box8 {
+  grid-column: 3;
+  grid-row: 4;
+}
+
+.box9 {
+  grid-column: 3;
+  grid-row: 5;
+}
+
+.box10 {
+  grid-column: 2 / span 2;
+  grid-row: 5;
+}

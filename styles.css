@@ -20,40 +20,19 @@ body {
 #grid > div:nth-child(1) {
   grid-column: span 4 / auto;
 }
+
 .box2 {
-  grid-row: span 4/ auto;
-}
-.box3 {
-  grid-column: 2;
-  grid-row: 2;
-}
-.box4 {
-  grid-column: span 2 / auto;
-  grid-row: 2;
-}
-.box5 {
-  grid-column: 2/ span 2;
-  grid-row: 3;
-}
-.box6 {
-  grid-column: 4;
-  grid-row: 3;
-}
-.box7 {
-  grid-column: 2;
-  grid-row: 4;
-}
-.box8 {
-  grid-column: 3;
-  grid-row: 4;
+  grid-row: span 4 / auto;
 }
 
-.box9 {
-  grid-column: 4;
-  grid-row: 4;
+.box4 {
+  grid-column: span 2 / auto;
+}
+
+.box5 {
+  grid-column: span 2 / auto;
 }
 
 .box10 {
-  grid-column: 2 / span 3;
-  grid-row: 5;
+  grid-column: span 3 / auto;
 }
